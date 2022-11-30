@@ -1,3 +1,5 @@
+#! /bin/zsh
+
 # Install oh-my-zsh
 echo "\n=========="
 echo "oh-my-zsh install"
