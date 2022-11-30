@@ -25,5 +25,5 @@ echo ". $HOME/.asdf/asdf.sh" >> $HOME/.zshrc
 echo ". $HOME/.asdf/completions/asdf.bash" >> $HOME/.zshrc
 
 # Install colorls
-sudo apt install ruby ruby-dev ruby-colorize
+sudo apt install -y ruby ruby-dev ruby-colorize 
 sudo gem install colorls
