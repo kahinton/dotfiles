@@ -21,3 +21,7 @@ echo "=========="
 git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf --branch v0.10.2
 echo ". $HOME/.asdf/asdf.sh" >> $HOME/.zshrc
 echo ". $HOME/.asdf/completions/asdf.bash" >> $HOME/.zshrc
+
+# Install colorls
+sudo apt install ruby ruby-dev ruby-colorize
+sudo gem install colorls
