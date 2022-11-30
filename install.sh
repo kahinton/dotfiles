@@ -27,3 +27,7 @@ echo ". $HOME/.asdf/completions/asdf.bash" >> $HOME/.zshrc
 # Install colorls
 sudo apt install -y ruby ruby-dev ruby-colorize 
 sudo gem install colorls
+
+# Get rid of colorls warning about missing locale
+sudo locale-gen "en_US.UTF-8"
+sudo dpkg-reconfigure locales
